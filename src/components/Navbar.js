@@ -11,7 +11,7 @@ function Navbar({mode,setmode}) {
      
     return (
     <div>
-      <div className=' flex justify-between  bg-green-600 '>
+      <div className=' flex justify-between  bg-purple-500 '>
         <div 
         className='text-gray-200 font-lg text-left hover:text-gray-200  m-3  h-8  '>
 
@@ -19,7 +19,7 @@ function Navbar({mode,setmode}) {
        {/* <Router>
        <Routes>
         <Route> */}
-               <Link className='pl-2 font-large   ' to="/"  > Dsa tracker </Link>
+               <Link className='pl-2 font-large   ' to="/"  > DSA CodeTrail </Link>
        {/* </Route>
        </Routes>
        </Router> */}
